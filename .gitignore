@@ -1,3 +1,6 @@
+# Raw data (third-party, open-access — see README.md "Data")
+data/
+
 # History files
 .Rhistory
 .Rapp.history
@@ -20,6 +23,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj.user
 
 # produced vignettes
 vignettes/*.html
@@ -38,6 +42,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+renv/
 
 # pkgdown site
 docs/
@@ -47,3 +52,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# OS-generated junk files
+.DS_Store
+
